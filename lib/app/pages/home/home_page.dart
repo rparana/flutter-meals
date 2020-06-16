@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../components/category_item.dart';
-import '../data/dummy_data.dart';
+import 'package:meals/components/category_item.dart';
+import 'package:meals/data/dummy_data.dart';
 
-class CategoryScreen extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
