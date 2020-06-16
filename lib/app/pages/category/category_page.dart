@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../data/dummy_data.dart';
-import '../models/category.dart';
-import '../components/meal_item.dart';
+import 'package:meals/components/meal_item.dart';
+import 'package:meals/data/dummy_data.dart';
+import 'package:meals/models/category.dart';
 
-class CategoryMealsScreen extends StatelessWidget {
+class CategoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final category = ModalRoute.of(context).settings.arguments as Category;
